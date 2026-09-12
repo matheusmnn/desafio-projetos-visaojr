@@ -13,7 +13,7 @@ main {
     display:flex;
     justify-content:center;
     align-items:center;
-    min-height:100vh;
+    min-height:calc(100vh - 80px);
 }
 
 .conteudo{
@@ -25,4 +25,18 @@ main {
     border-radius: 8px;
     overflow-y:auto;
     line-height:1.6;
+}
+
+.header{
+    padding:16px 32px;
+    background-color: green;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-size:1.5rem;
 }
