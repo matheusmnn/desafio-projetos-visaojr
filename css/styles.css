@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background-color: white;
+}
+
+main {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:calc(100vh - 80px);
+}
+
+.conteudo{
+    width:90%;
+    height:60vh;
+    margin:24px;
+    padding:32px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    overflow-y:auto;
+    line-height:1.6;
+}
+
+.header{
+    padding:16px 32px;
+    background-color: green;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-size:1.5rem;
+}
+
+.footer{
+    padding:16px 32px;
+    background-color: #1a1a1a;
+    color:white;
+    text-align:center;
+}
