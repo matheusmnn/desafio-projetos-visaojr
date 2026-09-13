@@ -40,3 +40,10 @@ main {
 .logo{
     font-size:1.5rem;
 }
+
+.footer{
+    padding:16px 32px;
+    background-color: #1a1a1a;
+    color:white;
+    text-align:center;
+}
